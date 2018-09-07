@@ -15,6 +15,16 @@
 		E905C3372138FE1B00D786B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E905C3362138FE1B00D786B9 /* main.m */; };
 		E905C3412138FE1B00D786B9 /* AudioProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E905C3402138FE1B00D786B9 /* AudioProgressTests.m */; };
 		E905C34C2138FE1B00D786B9 /* AudioProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E905C34B2138FE1B00D786B9 /* AudioProgressUITests.m */; };
+		E905C36F2138FED800D786B9 /* libfmod_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E905C3672138FED800D786B9 /* libfmod_iphonesimulator.a */; };
+		E905C3702138FED800D786B9 /* libfmodL_iphonesimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E905C3682138FED800D786B9 /* libfmodL_iphonesimulator.a */; };
+		E905C3782139003C00D786B9 /* FMAudioPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = E905C3772139003C00D786B9 /* FMAudioPlayer.mm */; };
+		E905C37F2139027D00D786B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E905C37E2139027D00D786B9 /* AudioToolbox.framework */; };
+		E905C3812139028400D786B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E905C3802139028400D786B9 /* AVFoundation.framework */; };
+		E905C3872139032000D786B9 /* singing.wav in Resources */ = {isa = PBXBuildFile; fileRef = E905C3862139032000D786B9 /* singing.wav */; };
+		E905C38A2139048300D786B9 /* libfmod_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E905C3882139048300D786B9 /* libfmod_iphoneos.a */; };
+		E905C38B2139048300D786B9 /* libfmodL_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E905C3892139048300D786B9 /* libfmodL_iphoneos.a */; };
+		E905C3A7213945E300D786B9 /* fmod_player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E905C3A5213945E300D786B9 /* fmod_player.cpp */; };
+		E905C3AA2139473900D786B9 /* fmod_player_effect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E905C3A82139473900D786B9 /* fmod_player_effect.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,28 @@
 		E905C3472138FE1B00D786B9 /* AudioProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E905C34B2138FE1B00D786B9 /* AudioProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioProgressUITests.m; sourceTree = "<group>"; };
 		E905C34D2138FE1B00D786B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E905C35C2138FED800D786B9 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		E905C35D2138FED800D786B9 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		E905C35E2138FED800D786B9 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		E905C35F2138FED800D786B9 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		E905C3602138FED800D786B9 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		E905C3612138FED800D786B9 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		E905C3622138FED800D786B9 /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_ios.h; sourceTree = "<group>"; };
+		E905C3632138FED800D786B9 /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_common.h; sourceTree = "<group>"; };
+		E905C3642138FED800D786B9 /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp_effects.h; sourceTree = "<group>"; };
+		E905C3672138FED800D786B9 /* libfmod_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphonesimulator.a; sourceTree = "<group>"; };
+		E905C3682138FED800D786B9 /* libfmodL_iphonesimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphonesimulator.a; sourceTree = "<group>"; };
+		E905C3762139003C00D786B9 /* FMAudioPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAudioPlayer.h; sourceTree = "<group>"; };
+		E905C3772139003C00D786B9 /* FMAudioPlayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FMAudioPlayer.mm; sourceTree = "<group>"; };
+		E905C37E2139027D00D786B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E905C3802139028400D786B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E905C3862139032000D786B9 /* singing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = singing.wav; sourceTree = "<group>"; };
+		E905C3882139048300D786B9 /* libfmod_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmod_iphoneos.a; sourceTree = "<group>"; };
+		E905C3892139048300D786B9 /* libfmodL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfmodL_iphoneos.a; sourceTree = "<group>"; };
+		E905C3A5213945E300D786B9 /* fmod_player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fmod_player.cpp; sourceTree = "<group>"; };
+		E905C3A6213945E300D786B9 /* fmod_player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fmod_player.hpp; sourceTree = "<group>"; };
+		E905C3A82139473900D786B9 /* fmod_player_effect.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fmod_player_effect.cpp; sourceTree = "<group>"; };
+		E905C3A92139473900D786B9 /* fmod_player_effect.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fmod_player_effect.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E905C3812139028400D786B9 /* AVFoundation.framework in Frameworks */,
+				E905C38B2139048300D786B9 /* libfmodL_iphoneos.a in Frameworks */,
+				E905C37F2139027D00D786B9 /* AudioToolbox.framework in Frameworks */,
+				E905C3702138FED800D786B9 /* libfmodL_iphonesimulator.a in Frameworks */,
+				E905C38A2139048300D786B9 /* libfmod_iphoneos.a in Frameworks */,
+				E905C36F2138FED800D786B9 /* libfmod_iphonesimulator.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +123,7 @@
 				E905C33F2138FE1B00D786B9 /* AudioProgressTests */,
 				E905C34A2138FE1B00D786B9 /* AudioProgressUITests */,
 				E905C3252138FE1B00D786B9 /* Products */,
+				E905C37D2139027D00D786B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +140,9 @@
 		E905C3262138FE1B00D786B9 /* AudioProgress */ = {
 			isa = PBXGroup;
 			children = (
+				E905C3862139032000D786B9 /* singing.wav */,
+				E905C3792139004D00D786B9 /* FMAudioPlayer */,
+				E905C3592138FE3200D786B9 /* OpenSource */,
 				E905C3272138FE1B00D786B9 /* AppDelegate.h */,
 				E905C3282138FE1B00D786B9 /* AppDelegate.m */,
 				E905C32A2138FE1B00D786B9 /* ViewController.h */,
@@ -130,6 +172,72 @@
 				E905C34D2138FE1B00D786B9 /* Info.plist */,
 			);
 			path = AudioProgressUITests;
+			sourceTree = "<group>";
+		};
+		E905C3592138FE3200D786B9 /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				E905C35A2138FED800D786B9 /* FMOD */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		E905C35A2138FED800D786B9 /* FMOD */ = {
+			isa = PBXGroup;
+			children = (
+				E905C35B2138FED800D786B9 /* inc */,
+				E905C3652138FED800D786B9 /* lib */,
+			);
+			path = FMOD;
+			sourceTree = "<group>";
+		};
+		E905C35B2138FED800D786B9 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				E905C35C2138FED800D786B9 /* fmod_output.h */,
+				E905C35D2138FED800D786B9 /* fmod_dsp.h */,
+				E905C35E2138FED800D786B9 /* fmod_errors.h */,
+				E905C35F2138FED800D786B9 /* fmod.h */,
+				E905C3602138FED800D786B9 /* fmod_codec.h */,
+				E905C3612138FED800D786B9 /* fmod.hpp */,
+				E905C3622138FED800D786B9 /* fmod_ios.h */,
+				E905C3632138FED800D786B9 /* fmod_common.h */,
+				E905C3642138FED800D786B9 /* fmod_dsp_effects.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		E905C3652138FED800D786B9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E905C3882139048300D786B9 /* libfmod_iphoneos.a */,
+				E905C3892139048300D786B9 /* libfmodL_iphoneos.a */,
+				E905C3672138FED800D786B9 /* libfmod_iphonesimulator.a */,
+				E905C3682138FED800D786B9 /* libfmodL_iphonesimulator.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		E905C3792139004D00D786B9 /* FMAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E905C3762139003C00D786B9 /* FMAudioPlayer.h */,
+				E905C3772139003C00D786B9 /* FMAudioPlayer.mm */,
+				E905C3A6213945E300D786B9 /* fmod_player.hpp */,
+				E905C3A5213945E300D786B9 /* fmod_player.cpp */,
+				E905C3A92139473900D786B9 /* fmod_player_effect.hpp */,
+				E905C3A82139473900D786B9 /* fmod_player_effect.cpp */,
+			);
+			path = FMAudioPlayer;
+			sourceTree = "<group>";
+		};
+		E905C37D2139027D00D786B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E905C3802139028400D786B9 /* AVFoundation.framework */,
+				E905C37E2139027D00D786B9 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +345,7 @@
 			files = (
 				E905C3342138FE1B00D786B9 /* LaunchScreen.storyboard in Resources */,
 				E905C3312138FE1B00D786B9 /* Assets.xcassets in Resources */,
+				E905C3872139032000D786B9 /* singing.wav in Resources */,
 				E905C32F2138FE1B00D786B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +371,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E905C3782139003C00D786B9 /* FMAudioPlayer.mm in Sources */,
+				E905C3AA2139473900D786B9 /* fmod_player_effect.cpp in Sources */,
 				E905C32C2138FE1B00D786B9 /* ViewController.m in Sources */,
 				E905C3372138FE1B00D786B9 /* main.m in Sources */,
+				E905C3A7213945E300D786B9 /* fmod_player.cpp in Sources */,
 				E905C3292138FE1B00D786B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,10 +546,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SN2MFMNAP;
 				INFOPLIST_FILE = AudioProgress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioProgress/OpenSource/FMOD/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mfw.AudioProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,10 +567,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6SN2MFMNAP;
 				INFOPLIST_FILE = AudioProgress/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioProgress/OpenSource/FMOD/lib",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mfw.AudioProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
